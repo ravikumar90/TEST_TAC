@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_DfCe4K15Eeazs7x-Cmniug" name="talendLogConnection" id="_rny88K14Eeazs7x-Cmniug" label="talendLogConnection" dataPackage="_DlS34K15Eeazs7x-Cmniug" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/talendlog?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="talendlog" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_DfKasK15Eeazs7x-Cmniug" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_Dg7VQK15Eeazs7x-Cmniug" tag="package filter" value=""/>
+    <taggedValue xmi:id="_DhQFYK15Eeazs7x-Cmniug" tag="Status" value=""/>
+    <taggedValue xmi:id="_DhQFYa15Eeazs7x-Cmniug" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_DhQFYq15Eeazs7x-Cmniug" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_DhQFY615Eeazs7x-Cmniug" tag="Description" value=""/>
+    <taggedValue xmi:id="_DhQFZK15Eeazs7x-Cmniug" tag="Author" value=""/>
+    <taggedValue xmi:id="_DhQFZa15Eeazs7x-Cmniug" tag="otherParameter"/>
+    <taggedValue xmi:id="_DhxCwK15Eeazs7x-Cmniug" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_DhxCwa15Eeazs7x-Cmniug" tag="DB ProductVersion" value="5.6.32-log"/>
+    <taggedValue xmi:id="_DhxCwq15Eeazs7x-Cmniug" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_DfLBwK15Eeazs7x-Cmniug" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_DlS34K15Eeazs7x-Cmniug" name="talendlog" dataManager="_DfCe4K15Eeazs7x-Cmniug"/>
+</xmi:XMI>
