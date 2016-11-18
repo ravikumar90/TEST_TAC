@@ -140,9 +140,6 @@
     <elementParameter field="TEXT" name="LABEL" value="LoadContextVariables"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
-    <metadata connector="FLOW" name="LoadContextVariables_1">
-      <column comment="" key="false" length="-1" name="test" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-    </metadata>
     <metadata connector="OUTPUT_1" name="OUTPUT_1">
       <column comment="" key="false" length="-1" name="test" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
