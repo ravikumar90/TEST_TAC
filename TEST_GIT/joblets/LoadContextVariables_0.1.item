@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore">
   <model:JobletProcess defaultContext="Default" jobType="Standard">
-    <context confirmationNeeded="false" name="Default"/>
+    <context confirmationNeeded="false" name="Default">
+      <contextParameter comment="REST URL for get all the countries" name="getCountryURL" prompt="getCountryURL?" promptNeeded="false" repositoryContextId="_90BGgK1cEeaXNMNpDOWE1A" type="id_String" value="http://services.groupkt.com/country/get/all"/>
+    </context>
     <parameters>
       <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
       <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -81,7 +83,7 @@
     <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
       <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-      <elementParameter field="FILE" name="FILENAME" value="&quot;/esb/context/context.cfg&quot;"/>
+      <elementParameter field="FILE" name="FILENAME" value="&quot;/demo/context.cfg&quot;"/>
       <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
       <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
       <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
