@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_ba074K10Eeazs7x-Cmniug" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_ba074a10Eeazs7x-Cmniug" comment="" name="MySQL_DB_HOST" prompt="MySQL_DB_HOST?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_ba074q10Eeazs7x-Cmniug" comment="" name="MySQL_DB_USER" prompt="MySQL_DB_USER?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_ba074610Eeazs7x-Cmniug" comment="" name="MySQL_DB_Name" prompt="MySQL_DB_Name?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_ba075K10Eeazs7x-Cmniug" comment="" name="MySQL_DB_Port" prompt="MySQL_DB_Port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_ba075a10Eeazs7x-Cmniug" comment="" name="MySQL_DB_PWD" prompt="MySQL_DB_PWD?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>
