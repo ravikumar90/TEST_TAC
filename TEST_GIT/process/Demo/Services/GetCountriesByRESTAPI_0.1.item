@@ -4,7 +4,7 @@
     <contextParameter comment="REST URL for get all the countries" name="getCountryURL1" prompt="getCountryURL1?" promptNeeded="false" repositoryContextId="_90BGgK1cEeaXNMNpDOWE1A" type="id_String" value="http://services.groupkt.com/country/get/all"/>
   </context>
   <context confirmationNeeded="false" name="Development">
-    <contextParameter comment="REST URL for get all the countries" name="getCountryURL1" prompt="getCountryURL1?" promptNeeded="false" repositoryContextId="_90BGgK1cEeaXNMNpDOWE1A" type="id_String" value="http://services.groupkt.com/country/get/all"/>
+    <contextParameter comment="REST URL for get all the countries" name="getCountryURL1" prompt="getCountryURL1?" promptNeeded="false" repositoryContextId="_90BGgK1cEeaXNMNpDOWE1A" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="Testing">
     <contextParameter comment="REST URL for get all the countries" name="getCountryURL1" prompt="getCountryURL1?" promptNeeded="false" repositoryContextId="_90BGgK1cEeaXNMNpDOWE1A" type="id_String" value="http://services.groupkt.com/country/get/all"/>
