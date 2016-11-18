@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore">
   <model:JobletProcess defaultContext="Default" jobType="Standard">
     <context confirmationNeeded="false" name="Default">
-      <contextParameter comment="REST URL for get all the countries" name="getCountryURL" prompt="getCountryURL?" promptNeeded="false" repositoryContextId="_90BGgK1cEeaXNMNpDOWE1A" type="id_String" value="http://services.groupkt.com/country/get/all"/>
+      <contextParameter comment="REST URL for get all the countries" name="getCountryURL1" prompt="getCountryURL1?" promptNeeded="false" repositoryContextId="_90BGgK1cEeaXNMNpDOWE1A" type="id_String" value="http://services.groupkt.com/country/get/all"/>
     </context>
     <parameters>
       <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
