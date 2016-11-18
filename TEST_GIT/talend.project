@@ -341,4 +341,7 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_UkszQo8EEeabkqkDCBPQdg" login="admin@company.com" firstName="admin" lastName="admin" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_Y_rJwI8EEeabkqkDCBPQdg" login="ravi@osscube.com" firstName="ravi" lastName="kumar" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_JH5yYa1ZEeaXNMNpDOWE1A" login="slakkakula@magento.com" firstName="Srinivas" lastName="Lakkakula" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_JH6ZcK1ZEeaXNMNpDOWE1A" login="amit@osscube.com" firstName="amit" lastName="kumar" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_JH6Zca1ZEeaXNMNpDOWE1A" login="ravi@gmail.com" firstName="Ravi Kumar" lastName="Ambothu" type="DQ" additionnalData="{}"/>
 </xmi:XMI>
