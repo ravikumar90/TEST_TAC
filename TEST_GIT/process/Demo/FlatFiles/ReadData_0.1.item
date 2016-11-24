@@ -142,25 +142,27 @@
     </metadata>
     <nodeData xsi:type="TalendXMLMap:XmlMapData">
       <inputTrees name="row1" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
-        <nodes name="name" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.0" xpath="row1/name"/>
+        <nodes name="name" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.1" xpath="row1/name"/>
       </inputTrees>
       <outputTrees name="out">
         <nodes name="name" expression="" type="id_Document" xpath="out/name">
           <children xsi:type="TalendXMLMap:OutputTreeNode" name="root" expression="" type="id_String" xpath="out.name:/root" main="true">
-            <children xsi:type="TalendXMLMap:OutputTreeNode" name="name" expression=" row1.name" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.0" xpath="out.name:/root/name" loop="true" main="true">
+            <children xsi:type="TalendXMLMap:OutputTreeNode" name="name" expression="" type="id_String" xpath="out.name:/root/name" loop="true" main="true">
               <children xsi:type="TalendXMLMap:OutputTreeNode" name="num" expression="Numeric.sequence(&quot;s2&quot;,1,1) " type="id_String" xpath="out.name:/root/name/@num" nodeType="ATTRIBUT"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="test" expression="Numeric.sequence(&quot;s3&quot;,1,1) " type="id_String" xpath="out.name:/root/name/test"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="name" expression="row1.name" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.1" xpath="out.name:/root/name/name"/>
             </children>
           </children>
         </nodes>
       </outputTrees>
       <outputTrees name="out1">
-        <nodes name="newColumn" expression="Var.Var1" type="id_Integer" incomingConnections="//@node.1/@nodeData/@connections.1" xpath="out1/newColumn" pattern=""/>
+        <nodes name="newColumn" expression="Var.Var1" type="id_Integer" incomingConnections="//@node.1/@nodeData/@connections.0" xpath="out1/newColumn" pattern=""/>
       </outputTrees>
       <varTables name="Var">
-        <nodes name="Var1" expression="Numeric.sequence(&quot;s1&quot;,1,1) " type="id_Integer" outgoingConnections="//@node.1/@nodeData/@connections.1"/>
+        <nodes name="Var1" expression="Numeric.sequence(&quot;s1&quot;,1,1) " type="id_Integer" outgoingConnections="//@node.1/@nodeData/@connections.0"/>
       </varTables>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0"/>
       <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@varTables.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.1/@nodes.0"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0/@children.2"/>
     </nodeData>
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="-8" posX="480" posY="96">
