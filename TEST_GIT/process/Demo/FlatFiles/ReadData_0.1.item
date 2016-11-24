@@ -148,7 +148,7 @@
         <nodes name="name" expression="" type="id_Document" xpath="out/name">
           <children xsi:type="TalendXMLMap:OutputTreeNode" name="root" expression="" type="id_String" xpath="out.name:/root" main="true">
             <children xsi:type="TalendXMLMap:OutputTreeNode" name="name" expression=" row1.name" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.0" xpath="out.name:/root/name" loop="true" main="true">
-              <children xsi:type="TalendXMLMap:OutputTreeNode" name="num" expression="Numeric.sequence(&quot;s1&quot;,1,1) " type="id_String" xpath="out.name:/root/name/@num" nodeType="ATTRIBUT"/>
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="num" expression="Numeric.sequence(&quot;s2&quot;,1,1) " type="id_String" xpath="out.name:/root/name/@num" nodeType="ATTRIBUT"/>
             </children>
           </children>
         </nodes>
