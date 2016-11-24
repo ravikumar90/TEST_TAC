@@ -146,21 +146,20 @@
       </inputTrees>
       <outputTrees name="out">
         <nodes name="name" expression="" type="id_Document" xpath="out/name">
-          <children xsi:type="TalendXMLMap:OutputTreeNode" name="root" expression="" type="id_String" xpath="out.name:/root" loop="true" main="true">
-            <children xsi:type="TalendXMLMap:OutputTreeNode" name="name" expression=" row1.name" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.0" xpath="out.name:/root/name">
-              <children xsi:type="TalendXMLMap:OutputTreeNode" name="num" expression="Var.Var1" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.1" xpath="out.name:/root/name/@num" nodeType="ATTRIBUT"/>
+          <children xsi:type="TalendXMLMap:OutputTreeNode" name="root" expression="" type="id_String" xpath="out.name:/root" main="true">
+            <children xsi:type="TalendXMLMap:OutputTreeNode" name="name" expression=" row1.name" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.0" xpath="out.name:/root/name" loop="true" main="true">
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="num" expression="Numeric.sequence(&quot;s1&quot;,1,1) " type="id_String" xpath="out.name:/root/name/@num" nodeType="ATTRIBUT"/>
             </children>
           </children>
         </nodes>
       </outputTrees>
       <outputTrees name="out1">
-        <nodes name="newColumn" expression="Var.Var1" type="id_Integer" incomingConnections="//@node.1/@nodeData/@connections.2" xpath="out1/newColumn" pattern=""/>
+        <nodes name="newColumn" expression="Var.Var1" type="id_Integer" incomingConnections="//@node.1/@nodeData/@connections.1" xpath="out1/newColumn" pattern=""/>
       </outputTrees>
       <varTables name="Var">
-        <nodes name="Var1" expression="Numeric.sequence(&quot;s1&quot;,1,1) " type="id_Integer" outgoingConnections="//@node.1/@nodeData/@connections.1 //@node.1/@nodeData/@connections.2"/>
+        <nodes name="Var1" expression="Numeric.sequence(&quot;s1&quot;,1,1) " type="id_Integer" outgoingConnections="//@node.1/@nodeData/@connections.1"/>
       </varTables>
       <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@varTables.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0/@children.0"/>
       <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@varTables.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.1/@nodes.0"/>
     </nodeData>
   </node>
